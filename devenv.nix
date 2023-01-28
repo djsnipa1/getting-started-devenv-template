@@ -5,11 +5,19 @@
   env.GREET = "devenv";
 
   # https://devenv.sh/packages/
-  packages = [ pkgs.git ];
+  packages = with pkgs; w[ 
+    git
+    neovim
+    lf
+    bat
+    exa
+    figlet
+    lolcat
+  ];
 
   enterShell = ''
-    hello
-    git --version
+    figlet hello | lolcat
+    nvim --version
   '';
 
   # https://devenv.sh/languages/
