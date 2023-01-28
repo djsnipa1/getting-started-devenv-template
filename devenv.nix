@@ -28,8 +28,8 @@
 
   # https://devenv.sh/pre-commit-hooks/
   pre-commit.hooks = {
-    shellcheck.enable = true;
-    nixpkgs-fmt.enable = true;
+    # shellcheck.enable = true;
+    # nixpkgs-fmt.enable = true;
    # nix-linter.enable = true;
   };
 
