@@ -3,5 +3,6 @@
         cachix
         lazygit
 	exa
+	gh
     ];
 }
