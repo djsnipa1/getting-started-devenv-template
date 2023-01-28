@@ -1,7 +1,8 @@
-name: "Teuto"
+name: "Tutorial"
 on:
   pull_request:
   push:
+  workflow_dispatch:
 jobs:
   tests:
     runs-on: ubuntu-latest
